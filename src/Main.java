@@ -4,7 +4,6 @@ public class Main {
 
         SmartHome home = new SmartHome();
 
-        // Runtime Polymorphism
         Device d1 = new Light("Living Room Light");
         Device d2 = new Fan("Bedroom Fan");
         Device d3 = new DoorLock("Main Door");
