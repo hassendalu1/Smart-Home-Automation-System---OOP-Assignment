@@ -7,12 +7,10 @@ public class Fan extends Device {
         speed = 1;
     }
 
-    // Method overloading
     public void setSpeed(int speed) {
         this.speed = speed;
     }
 
-    // Overloaded method
     public void setSpeed() {
         this.speed = 3;
     }
