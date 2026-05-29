@@ -1,6 +1,5 @@
 public class Device {
 
-    // Encapsulation
     private String deviceName;
     private boolean status;
 
@@ -9,7 +8,6 @@ public class Device {
         this.status = false;
     }
 
-    // Getters
     public String getDeviceName() {
         return deviceName;
     }
@@ -18,7 +16,6 @@ public class Device {
         return status;
     }
 
-    // Setters
     public void setDeviceName(String deviceName) {
         if (!deviceName.isEmpty()) {
             this.deviceName = deviceName;
